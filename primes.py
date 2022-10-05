@@ -1,4 +1,7 @@
-def primes(number_of_primes:int) -> list[int]:
+import typing
+
+
+def primes(number_of_primes: int) -> typing.List[int]:
     """
     generates the first `number_of_primes` primes and returns them as 
     a list
